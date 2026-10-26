@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Arcanjo | Portfólio</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark border-bottom border-secondary">       
+        <div class="d-flex align-items-center gap-3">
+            <a class="nav-link text-light" href="#habilidades">Habilidades</a>
+            <a class="nav-link text-light" href="#projetos">Projetos</a>
+        </div>
+
+    </nav>
+
+    <main class="container py-5">
+        <section class="py-5">
+            <p class="destaque fw-semibold">OLÁ, EU SOU</p>
+
+            <h1 class="display-4 fw-bold">
+                Samuel Arcanjo
+            </h1>
+
+            <h2 class="h3 text-secondary mt-3">
+                Suporte Técnico, Sistemas e Desenvolvimento
+            </h2>
+
+            <p class="fs-5 mt-4">
+                Em evolução para DevOps/SRE, com projetos práticos em
+                Linux, Docker, Git, monitoramento e automação.
+            </p>
+
+            <a
+                class="btn botao px-4 py-2 mt-3"
+                href="#projetos"
+            >
+                Conheça meus projetos
+            </a>
+        </section>
+
+        <section id="projetos" class="py-4">
+            <h2 class="fw-bold mb-4">Projetos em destaque</h2>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <article class="cartao p-4 h-100">
+                        <h3 class="h5 destaque">Monitoramento com Docker</h3>
+                        <p>
+                            Projeto com Nginx, Prometheus e Grafana,
+                            usando Docker Compose para subir os serviços.
+                        </p>
+
+                        <a
+                            href="https://github.com/SamuelArcanjo/BSAtech-DevOps-SRE"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="link-info"
+                        >
+                            Ver projeto no GitHub →
+                        </a>
+                    </article>
+                </div>
+
+                <div class="col-md-6">
+                    <article class="cartao p-4 h-100">
+                        <h3 class="h5 destaque">Portfólio profissional</h3>
+                        <p>
+                            Aplicação web desenvolvida com Python e Flask,
+                            que evoluirá com banco de dados, Docker e CI/CD.
+                        </p>
+                        <span class="badge text-bg-primary">Em desenvolvimento</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        
+<section id="habilidades" class="py-5">
+    <h2 class="fw-bold mb-4">Habilidades técnicas</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+            <div class="cartao p-4 h-100">
+                <h3 class="h5 destaque">DevOps / SRE</h3>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2">Linux</li>
+                    <li class="mb-2">Git e GitHub</li>
+                    <li class="mb-2">Docker</li>
+                    <li class="mb-2">Docker Compose</li>
+                    <li>Nginx</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="cartao p-4 h-100">
+                <h3 class="h5 destaque">Monitoramento</h3>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2">Prometheus</li>
+                    <li class="mb-2">Grafana</li>
+                    <li class="mb-2">Métricas e dashboards</li>
+                    <li>Shell Script</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="cartao p-4 h-100">
+                <h3 class="h5 destaque">Desenvolvimento</h3>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2">Python</li>
+                    <li class="mb-2">Flask</li>
+                    <li class="mb-2">HTML e CSS</li>
+                    <li class="mb-2">Bootstrap</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+            <div class="cartao p-4 h-100">
+                <h3 class="h5 destaque">Sistemas e suporte</h3>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-2">Suporte técnico</li>
+                    <li class="mb-2">Troubleshooting</li>
+                    <li class="mb-2">Sistemas corporativos</li>
+                    <li>Resolução de problemas</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    </main>
+
+    <footer class="container border-top border-secondary py-4 text-secondary">
+        <p class="mb-0">
+            © 2026 Samuel Arcanjo — Desenvolvido com Python e Flask.
+        </p>
+    </footer>
+</body>
+</html>
